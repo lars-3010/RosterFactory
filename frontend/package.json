@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "uv run python ../../scripts/generate_players_json.py",
+    "prebuild": "uv run python ../generate_players_json.py",
     "build": "npm run prebuild && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

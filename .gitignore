@@ -41,6 +41,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# Task (go-task)
+.task/
+
 # VS Code
 .vscode/
 

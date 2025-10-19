@@ -218,6 +218,19 @@ function App() {
           </div>
         </div>
       </main>
+      <footer className="App-footer">
+        <p>
+          Want to add your champions?
+          <a
+            href="https://github.com/lars-3010/RosterFactory/tree/github-pages/data/players"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Add your player file here
+          </a>
+          and open a pull request!
+        </p>
+      </footer>
     </div>
   );
 }

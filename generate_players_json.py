@@ -9,11 +9,10 @@ def generate_players_json():
     consolidates them into a single JSON file, and places
     it in the frontend/public directory.
     """
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    base_dir = os.path.join(script_dir, "..")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     players_data = []
     data_dir = os.path.join(base_dir, "data", "players")
-    output_dir = os.path.join(base_dir, "src", "frontend", "public")
+    output_dir = os.path.join(base_dir, "frontend", "public")
     output_file = os.path.join(output_dir, "players.json")
 
     # Ensure the output directory exists

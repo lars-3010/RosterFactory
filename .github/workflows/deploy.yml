@@ -1,17 +1,10 @@
 
 name: Deploy to GitHub Pages
 
-# Run this workflow manually from the Actions tab
 on:
   push:
     branches:
-      - github-pages
-
-# You can change this to trigger on push to a specific branch, for example:
-# on:
-#   push:
-#     branches:
-#       - main
+      - main
 
 jobs:
   build-and-deploy:
@@ -42,18 +35,18 @@ jobs:
         run: uv sync
 
       - name: Install frontend dependencies
-        working-directory: ./src/frontend
+        working-directory: ./frontend
         run: npm install
 
       - name: Build frontend
-        working-directory: ./src/frontend
+        working-directory: ./frontend
         run: npm run build
 
       - name: List build output
-        run: ls -R src/frontend/dist
+        run: ls -R frontend/dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/frontend/dist
+          publish_dir: ./frontend/dist

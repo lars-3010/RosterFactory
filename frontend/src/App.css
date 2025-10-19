@@ -157,3 +157,28 @@ tbody td:not(.player-cell) {
 .flex-group-3 { color: #66D9EF; font-weight: bold; } /* Blue */
 .flex-group-4 { color: #AE81FF; font-weight: bold; } /* Purple */
 .flex-group-5 { color: #E6DB74; font-weight: bold; } /* Yellow */
+
+.App-footer {
+  background-color: #1f2329;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.App-footer p {
+  margin: 0;
+}
+
+.App-footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-footer a:hover {
+  color: #4fa8c4;
+  text-decoration: underline;
+}
