@@ -2,7 +2,7 @@
 
 # RosterFactory
 
-**A simple tool to generate team rosters based on player availability and roles.**
+**An interactive tool to generate and organize team rosters from a pool of players.**
 
 <br/>
 
@@ -17,11 +17,19 @@
 
 <br/>
 
-**[Getting Started](#-getting-started)**
+**[Features](#-features)** • **[Getting Started](#-getting-started)**
 
 </div>
 
 ---
+
+## ✨ Features
+
+- **Dynamic Roster Generation:** Select from a list of available players and instantly generate a roster.
+- **Pivoted Table View:** View the roster with players as rows and roles as columns for a clear overview of each player's capabilities.
+- **Tier-Based Grouping:** Champions are automatically grouped by tier (S, A, B, etc.) within each cell.
+- **Shared Pick Highlighting:** Automatically highlights any champion that can be played by more than one of the selected players.
+- **Interactive Drafting Mode:** Click a cell to "lock in" a player for a specific role. This grays out all other conflicting options, making it easy to build a final team composition.
 
 ## 🚀 Getting Started
 
