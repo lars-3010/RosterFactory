@@ -52,6 +52,13 @@
 
 ## 🚀 Getting Started
 
+### Cloning the Repository
+
+```bash
+git clone https://github.com/lars-3010/RosterFactory.git
+cd RosterFactory
+```
+
 ### Prerequisites
 
 <details>
