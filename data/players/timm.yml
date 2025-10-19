@@ -85,8 +85,8 @@ champions:
     tier: B
     name: Swain
   - role: Support
-    tier: Sona
-    name: C
+    tier: C
+    name: Sona
   - role: Support
     tier: D
     name: Zyra
