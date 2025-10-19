@@ -4,6 +4,7 @@ name: Deploy to GitHub Pages
 # Run this workflow manually from the Actions tab
 on:
   push:
+    branches:
       - github-pages
 
 # You can change this to trigger on push to a specific branch, for example:
