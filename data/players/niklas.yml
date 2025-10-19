@@ -8,11 +8,29 @@ champions:
     tier: A
     name: Garen
   - role: Top
-    tier: A
+    tier: S
     name: Jax
   - role: Top
     tier: S
     name: Tahm Kench
   - role: Top
-    tier: A
+    tier: B
     name: Yasuo
+  - role: Mid
+    tier: A
+    name: Annie
+  - role: Top
+    tier: A
+    name: Malphite
+  - role: Top
+    tier: B
+    name: Darius
+  - role: Top
+    tier: A
+    name: Nasus
+  - role: Top
+    tier: A
+    name: Annie
+  - role: Mid
+    tier: A
+    name: Tristana
