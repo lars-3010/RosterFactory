@@ -1,0 +1,8 @@
+player_name: Timm
+champions:
+  - role: Mid
+    tier: S
+    name: Malzahar
+  - role: Mid
+    tier: A
+    name: Mel
