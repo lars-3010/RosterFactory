@@ -16,3 +16,12 @@ champions:
   - role: ADC
     tier: A
     name: Ashe
+  - role: Jungle
+    tier: S
+    name: Amumu
+  - role: Jungle
+    tier: A
+    name: Jarvan IV
+  - role: Mid
+    tier: B
+    name: Ryze
