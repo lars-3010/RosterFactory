@@ -52,6 +52,11 @@
 
 ## 🚀 Getting Started
 
+On Windows, if Git is not installed, run the following command in PowerShell:
+```powershell
+winget install --id Git.Git -e --source winget
+```
+
 ### Cloning the Repository
 
 ```bash
