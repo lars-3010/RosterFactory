@@ -170,6 +170,18 @@ tbody td:not(.player-cell) {
   margin: 0;
 }
 
+.App-footer .footer-tip {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #999;
+  font-style: italic;
+}
+
+.App-footer .footer-tip strong {
+  color: #61dafb;
+  font-style: normal;
+}
+
 .App-footer a {
   color: #61dafb;
   text-decoration: none;

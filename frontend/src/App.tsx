@@ -230,6 +230,9 @@ function App() {
           </a>
           and open a pull request!
         </p>
+        <p className="footer-tip">
+          💡 Tip: After pushing to main, wait ~30s for deployment. If your changes don't appear, hard refresh with <strong>Cmd+Shift+R</strong> (Mac) or <strong>Ctrl+Shift+R</strong> (Windows).
+        </p>
       </footer>
     </div>
   );
