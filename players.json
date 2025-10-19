@@ -129,8 +129,168 @@
     "champions": [
       {
         "role": "Mid",
-        "tier": "A",
+        "tier": "B",
         "name": "Mel"
+      },
+      {
+        "role": "Mid",
+        "tier": "S",
+        "name": "Aurora"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Yone"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Galio"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Lux"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Swain"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Swain"
+      },
+      {
+        "role": "Mid",
+        "tier": "S",
+        "name": "Diana"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Veigar"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Aurelion Sol"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Oriana"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Lissandra"
+      },
+      {
+        "role": "Mid",
+        "tier": "C",
+        "name": "Malzahar"
+      },
+      {
+        "role": "Mid",
+        "tier": "C",
+        "name": "Xerath"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Annie"
+      },
+      {
+        "role": "Mid",
+        "tier": "C",
+        "name": "Anivia"
+      },
+      {
+        "role": "Support",
+        "tier": "B",
+        "name": "Mel"
+      },
+      {
+        "role": "Support",
+        "tier": "C",
+        "name": "Sona"
+      },
+      {
+        "role": "Support",
+        "tier": "C",
+        "name": "Lulu"
+      },
+      {
+        "role": "Support",
+        "tier": "C",
+        "name": "Tahm Kench"
+      },
+      {
+        "role": "Support",
+        "tier": "B",
+        "name": "Taric"
+      },
+      {
+        "role": "Support",
+        "tier": "C",
+        "name": "Leona"
+      },
+      {
+        "role": "Support",
+        "tier": "B",
+        "name": "Renata Glasc"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Brand"
+      },
+      {
+        "role": "Support",
+        "tier": "B",
+        "name": "Janna"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Yumi"
+      },
+      {
+        "role": "Support",
+        "tier": "C",
+        "name": "Senna"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Zyra"
+      },
+      {
+        "role": "Support",
+        "tier": "B",
+        "name": "Rakan"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Pyke"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Lux"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Soraka"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Morgana"
       },
       {
         "role": "Support",
@@ -139,8 +299,58 @@
       },
       {
         "role": "Support",
-        "tier": "A",
+        "tier": "S",
         "name": "Milio"
+      },
+      {
+        "role": "Top",
+        "tier": "C",
+        "name": "Vayne"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Kayle"
+      },
+      {
+        "role": "Top",
+        "tier": "C",
+        "name": "Chogath"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Garen"
+      },
+      {
+        "role": "Top",
+        "tier": "A",
+        "name": "Warwick"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Heimerdinger"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Mordekaiser"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Tahm Kench"
+      },
+      {
+        "role": "Top",
+        "tier": "A",
+        "name": "Yorick"
+      },
+      {
+        "role": "Top",
+        "tier": "A",
+        "name": "Yone"
       }
     ]
   },
