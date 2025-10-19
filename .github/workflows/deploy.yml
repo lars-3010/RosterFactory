@@ -1,0 +1,48 @@
+
+name: Deploy to GitHub Pages
+
+# Run this workflow manually from the Actions tab
+on:
+  push:
+      - github-pages
+
+# You can change this to trigger on push to a specific branch, for example:
+# on:
+#   push:
+#     branches:
+#       - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Match the version from your environment if possible
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Match the version from your environment
+
+      - name: Install uv
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+      - name: Install frontend dependencies
+        working-directory: ./src/frontend
+        run: npm install
+
+      - name: Build frontend
+        working-directory: ./src/frontend
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./src/frontend/dist

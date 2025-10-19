@@ -54,17 +54,80 @@ const ChampionList = ({ champions_by_tier }: { champions_by_tier: ChampionsByTie
   </>
 );
 
+// --- DATA TRANSFORMATION LOGIC ---
+const transformPlayerData = (playersData: any[], selectedPlayerNames: string[]): Player[] => {
+  const selectedData = playersData.filter(p => selectedPlayerNames.includes(p.player_name));
+
+  const championPlayerMap: Record<string, string[]> = {};
+  selectedData.forEach(player => {
+    player.champions.forEach((champ: any) => {
+      if (!championPlayerMap[champ.name]) {
+        championPlayerMap[champ.name] = [];
+      }
+      championPlayerMap[champ.name].push(player.player_name);
+    });
+  });
+
+  const flexChampions: Record<string, number> = {};
+  let flexGroupCounter = 1;
+  Object.entries(championPlayerMap).forEach(([champName, players]) => {
+    if (players.length > 1) {
+      flexChampions[champName] = flexGroupCounter++;
+    }
+  });
+
+  const transformedRoster = selectedData.map(player => {
+    const roles: Record<string, RoleInfo> = {};
+    player.champions.forEach((champ: any) => {
+      if (!roles[champ.role]) {
+        roles[champ.role] = { champions_by_tier: {} };
+      }
+      if (!roles[champ.role].champions_by_tier[champ.tier]) {
+        roles[champ.role].champions_by_tier[champ.tier] = [];
+      }
+      roles[champ.role].champions_by_tier[champ.tier].push({
+        name: champ.name,
+        flex_group: flexChampions[champ.name] || null,
+      });
+    });
+
+    Object.values(roles).forEach(roleInfo => {
+        const sortedTiers: ChampionsByTier = {};
+        const tierOrder = ['S', 'A', 'B', 'C', 'D'];
+        tierOrder.forEach(tier => {
+            if (roleInfo.champions_by_tier[tier]) {
+                sortedTiers[tier] = roleInfo.champions_by_tier[tier];
+            }
+        });
+        roleInfo.champions_by_tier = sortedTiers;
+    });
+
+
+    return {
+      player: player.player_name,
+      roles: roles,
+    };
+  });
+
+  return transformedRoster;
+};
+
 // --- MAIN APP COMPONENT ---
 function App() {
+  const [allPlayersData, setAllPlayersData] = useState<any[]>([]);
   const [players, setPlayers] = useState<string[]>([]);
   const [selectedPlayers, setSelectedPlayers] = useState<string[]>([]);
   const [roster, setRoster] = useState<Player[]>([]);
   const [lockedSelections, setLockedSelections] = useState<Record<string, string>>({});
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/players')
+    fetch('/players.json')
       .then(response => response.json())
-      .then(data => setPlayers(data.players));
+      .then(data => {
+        setAllPlayersData(data);
+        const playerNames = data.map((p: any) => p.player_name);
+        setPlayers(playerNames);
+      });
   }, []);
 
   const handlePlayerSelection = (player: string) => {
@@ -76,13 +139,9 @@ function App() {
       setRoster([]);
       return;
     }
-    const playerQuery = selectedPlayers.join(',');
-    fetch(`http://localhost:8000/api/roster?players=${playerQuery}`)
-      .then(response => response.json())
-      .then(data => {
-        setRoster(data);
-        setLockedSelections({});
-      });
+    const newRoster = transformPlayerData(allPlayersData, selectedPlayers);
+    setRoster(newRoster);
+    setLockedSelections({});
   };
 
   const handleLockIn = (role: string, player: string) => {
