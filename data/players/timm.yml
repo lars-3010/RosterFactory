@@ -99,3 +99,147 @@ champions:
   - role: Support
     tier: S
     name: Braum
+  - role: Mid
+    tier: A
+    name: Vladimir
+  - role: Mid
+    tier: B
+    name: Zed
+  - role: Mid
+    tier: A
+    name: Anivia
+  - role: Mid
+    tier: S
+    name: Vex
+  - role: Mid
+    tier: B
+    name: Sylas
+  - role: Support
+    tier: B
+    name: Bard
+  - role: Support
+    tier: A
+    name: Milio
+  - role: Support
+    tier: B
+    name: Pantheon
+  - role: Support
+    tier: A
+    name: Rakan
+  - role: Support
+    tier: B
+    name: Renata
+  - role: ADC
+    tier: S
+    name: Smolder
+  - role: ADC
+    tier: A
+    name: Miss Fortune
+  - role: ADC
+    tier: S
+    name: Corki
+  - role: ADC
+    tier: S
+    name: Kaisa
+  - role: ADC
+    tier: S
+    name: Xayah
+  - role: ADC
+    tier: A
+    name: Caitlyn
+  - role: Jungle
+    tier: S
+    name: Diana
+  - role: Jungle
+    tier: A
+    name: Jarvan IV
+  - role: Jungle
+    tier: S
+    name: Wukong
+  - role: Jungle
+    tier: S
+    name: Fiddlesticks
+  - role: Jungle
+    tier: A
+    name: Gragas
+  - role: Jungle
+    tier: S
+    name: Maokai
+  - role: Mid
+    tier: A
+    name: Fizz
+  - role: Mid
+    tier: A
+    name: Galio
+  - role: Mid
+    tier: A
+    name: Ahri
+  - role: Mid
+    tier: B
+    name: Cassiopeia
+  - role: Support
+    tier: A
+    name: Rell
+  - role: Jungle
+    tier: A
+    name: Vi
+  - role: Top
+    tier: A
+    name: Shen
+  - role: Top
+    tier: A
+    name: Ornn
+  - role: Jungle
+    tier: S
+    name: Volibear
+  - role: Jungle
+    tier: A
+    name: Warwick
+  - role: Jungle
+    tier: B
+    name: Trundle
+  - role: Jungle
+    tier: A
+    name: Sejuani
+  - role: Top
+    tier: B
+    name: Dr. Mundo
+  - role: Top
+    tier: A
+    name: Rumble
+  - role: Jungle
+    tier: A
+    name: Rammus
+  - role: Jungle
+    tier: B
+    name: Amumu
+  - role: Support
+    tier: C
+    name: Taric
+  - role: Jungle
+    tier: B
+    name: Elise
+  - role: Jungle
+    tier: B
+    name: Kindred
+  - role: Top
+    tier: A
+    name: Malphite
+  - role: Top
+    tier: A
+    name: Kennen
+  - role: Top
+    tier: B
+    name: Gragas
+  - role: Mid
+    tier: C
+    name: LeBlanc
+  - role: ADC
+    tier: B
+    name: Ashe
+  - role: Mid
+    tier: B
+    name: Tristana
+  - role: Top
+    tier: A
+    name: Heimerdinger
