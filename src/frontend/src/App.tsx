@@ -121,7 +121,7 @@ function App() {
   const [lockedSelections, setLockedSelections] = useState<Record<string, string>>({});
 
   useEffect(() => {
-    fetch('/players.json')
+    fetch('players.json')
       .then(response => response.json())
       .then(data => {
         setAllPlayersData(data);
