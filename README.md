@@ -31,6 +31,25 @@
 - **Shared Pick Highlighting:** Automatically highlights any champion that can be played by more than one of the selected players.
 - **Interactive Drafting Mode:** Click a cell to "lock in" a player for a specific role. This grays out all other conflicting options, making it easy to build a final team composition.
 
+## 📖 Player Roster
+
+<!-- ROSTER_TABLE_START -->
+
+| Player | Top | Jungle | Mid | ADC | Support |
+|---|---|---|---|---|---|
+| Ayoub | | | **A**: Mel | | **A**: Nautilus<br>**A**: Milio |
+| Hendrik | **A**: Darius | | | | |
+| Jan | **A**: Gnar | | | **A**: Jinx<br>**A**: Ashe<br>**S**: Sivir<br>**S**: Kai'Sa | |
+| Lars | **A**: Jax<br>**A**: Fiora<br>**A**: Shen<br>**S**: Camille<br>**S**: Mordekaiser | **A**: Shen<br>**A**: Shyvana<br>**S**: Jarvan IV | **A**: Galio<br>**A**: Azir<br>**A**: Viktor<br>**A**: Anivia<br>**S**: Orianna | **A**: Ezreal<br>**A**: Senna<br>**A**: Seraphine | |
+| Lukas | | **A**: Volibear | **A**: Veigar<br>**S**: Ahri | **A**: Ashe | |
+| Marisa | | | | **A**: Jhin | **A**: Lulu<br>**S**: Nami |
+| Maxim | **A**: Cho'Gath | **A**: Amumu<br>**A**: Diana<br>**A**: Evelynn<br>**A**: Jarvan IV<br>**A**: Shen<br>**A**: Seraphine<br>**B**: Rammus<br>**B**: Volibear<br>**B**: Shyvana<br>**B**: Nocturn<br>**B**: Nunu | **A**: Galio | | **A**: Lulu<br>**A**: Sona<br>**B**: Leona |
+| Niklas | **A**: Cho'Gath<br>**A**: Garen<br>**A**: Jax<br>**A**: Yasuo<br>**S**: Tahm Kench | | | | |
+| Simon | **S**: Mordekaiser | | **S**: Mordekaiser<br>**S**: Veigar | | |
+| Timon | **A**: Shen | **A**: Jarvan IV | | | |
+
+<!-- ROSTER_TABLE_END -->
+
 ## 🚀 Getting Started
 
 ### Prerequisites

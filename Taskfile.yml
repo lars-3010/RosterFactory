@@ -31,9 +31,14 @@ tasks:
   dev:backend:
     desc: "Run the backend development server (FastAPI)"
     cmds:
-      - uvicorn src.backend.main:app --reload
+      - uv run -- uvicorn src.backend.main:app --reload
 
   dev:frontend:
     desc: "Run the frontend development server (Vite)"
     cmds:
       - npm run dev --prefix src/frontend
+
+  update-roster:
+    desc: "Update the player roster table in the README.md"
+    cmds:
+      - uv run scripts/generate_roster_table.py

@@ -1,0 +1,8 @@
+player_name: Timon
+champions:
+  - role: Top
+    tier: A
+    name: Shen
+  - role: Jungle
+    tier: A
+    name: Jarvan IV
