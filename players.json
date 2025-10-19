@@ -584,6 +584,11 @@
       },
       {
         "role": "Mid",
+        "tier": "S",
+        "name": "Darius"
+      },
+      {
+        "role": "Mid",
         "tier": "A",
         "name": "Viktor"
       },
