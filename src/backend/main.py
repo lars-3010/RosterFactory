@@ -57,14 +57,13 @@ async def get_players():
 @app.get("/api/roster")
 async def get_roster(players: str):
     """
-    Returns a list of roles and champions for the selected players, with shared picks identified and grouped by tier.
+    Returns a list of players with their roles and champions, with shared picks identified.
     """
     roster_df = load_players_to_df(PLAYER_DATA_DIR)
     selected_players = players.split(",")
-    roster = {}
     
     if not selected_players or not players or roster_df.empty:
-        return {}
+        return []
         
     filtered_df = roster_df[roster_df['player'].isin(selected_players)]
     
@@ -76,16 +75,17 @@ async def get_roster(players: str):
         champ_name: i for i, champ_name in enumerate(shared_champion_names)
     }
 
-    # Build the roster
-    available_roles = filtered_df['role'].unique()
-    for role in ROLE_ORDER:
-        if role in available_roles:
-            roster[role] = []
-            for player in sorted(filtered_df[filtered_df['role'] == role]['player'].unique()):
-                player_role_df = filtered_df[(filtered_df['player'] == player) & (filtered_df['role'] == role)]
-                
+    # Build the player-centric roster
+    player_roster = []
+    for player in sorted(filtered_df['player'].unique()):
+        player_df = filtered_df[filtered_df['player'] == player]
+        player_roles = {}
+        
+        for role in ROLE_ORDER:
+            role_df = player_df[player_df['role'] == role]
+            if not role_df.empty:
                 champs_by_tier = {}
-                for _, row in player_role_df.iterrows():
+                for _, row in role_df.iterrows():
                     tier = row['tier']
                     if tier not in champs_by_tier:
                         champs_by_tier[tier] = []
@@ -97,18 +97,18 @@ async def get_roster(players: str):
                         "flex_group": flex_group
                     })
 
-                # Sort tiers according to TIER_ORDER
                 sorted_champs_by_tier = {
                     tier: champs_by_tier[tier] 
                     for tier in TIER_ORDER if tier in champs_by_tier
                 }
+                player_roles[role] = {"champions_by_tier": sorted_champs_by_tier}
 
-                roster[role].append({
-                    "player": player,
-                    "champions_by_tier": sorted_champs_by_tier
-                })
+        player_roster.append({
+            "player": player,
+            "roles": player_roles
+        })
                 
-    return roster
+    return player_roster
 
 @app.get("/")
 async def root():

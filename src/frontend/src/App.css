@@ -24,19 +24,22 @@ h1 {
 
 main {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   padding: 2rem;
+  gap: 2rem;
 }
 
-.player-selection, .roster-display {
-  width: 45%;
+.player-selection {
+  width: 80%;
+  max-width: 900px;
 }
 
 .player-list {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -62,10 +65,40 @@ button:hover {
   background-color: #4fa8c4;
 }
 
+.roster-container {
+  display: flex;
+  gap: 1.5rem;
+  width: 95%;
+  max-width: 1400px;
+}
+
+.info-callout {
+  flex: 0 0 150px;
+  background-color: rgba(50, 54, 62, 0.8);
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.info-callout svg {
+  color: #61dafb;
+  flex-shrink: 0;
+}
+
+.roster-display {
+  flex: 1;
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 1rem;
 }
 
 thead {
@@ -76,19 +109,38 @@ th, td {
   padding: 12px 15px;
   border: 1px solid #444;
   vertical-align: top;
+  min-width: 150px;
 }
 
 tbody tr {
   background-color: rgba(50, 54, 62, 0.8);
 }
 
-tbody tr:hover {
+tbody tr:hover td:not(.disabled) {
   background-color: #40444c;
 }
 
-.role-cell {
+.player-cell {
   background-color: #1f2329;
   font-weight: bold;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+
+tbody td:not(.player-cell) {
+  cursor: pointer;
+}
+
+.locked-in {
+  background-color: #282c34 !important; 
+  border: 2px solid #61dafb;
+}
+
+.disabled {
+  opacity: 0.3;
+  background-color: #282c34 !important;
+  cursor: not-allowed !important;
 }
 
 .tier-group:not(:last-child) {
