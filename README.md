@@ -71,15 +71,36 @@ brew install uv
 </details>
 
 <details>
-<summary>Windows</summary>
+<summary>Windows (PowerShell)</summary>
 
-*   **Python:** Download and install from [python.org](https://www.python.org/downloads/).
-*   **Node.js:** Download and install from [nodejs.org](https://nodejs.org/en/download/).
-*   **Task:**
-    *   Using Chocolatey: `choco install go-task`
-    *   Other methods: See [Task installation guide](https://taskfile.dev/installation/).
-*   **uv:**
-    *   Using PowerShell: `powershell -c "irm https://astral.sh/uv/install.ps1 | iex"`
+### Python
+```powershell
+Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.12.5/python-3.12.5-amd64.exe" -OutFile "$env:TEMP\python-installer.exe"
+Start-Process "$env:TEMP\python-installer.exe" -ArgumentList "/quiet InstallAllUsers=1 PrependPath=1 Include_test=0" -Wait
+Remove-Item "$env:TEMP\python-installer.exe"
+```
+
+### Node.js
+```powershell
+Invoke-WebRequest -Uri "https://nodejs.org/dist/v22.11.0/node-v22.11.0-x64.msi" -OutFile "$env:TEMP\node-installer.msi"
+Start-Process msiexec.exe -ArgumentList '/i', "$env:TEMP\node-installer.msi", '/quiet', '/norestart' -Wait
+Remove-Item "$env:TEMP\node-installer.msi"
+```
+
+### Task (via Chocolatey)
+If you don’t have Chocolatey, install it first:
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+Then install Task:
+```powershell
+choco install go-task -y
+```
+
+### uv (fast Python package manager by Astral)
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
 </details>
 
