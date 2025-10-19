@@ -56,4 +56,46 @@ champions:
     name: Neeko
   - role: Support
     tier: S
-    name: Yummi
+    name: Yuumi
+  - role: Support
+    tier: A
+    name: Karma
+  - role: Support
+    tier: A
+    name: Janna
+  - role: Support
+    tier: S
+    name: Mel
+  - role: Support
+    tier: A
+    name: Seraphine
+  - role: Support
+    tier: S
+    name: Leona
+  - role: Support
+    tier: S
+    name: Nautilus
+  - role: Support
+    tier: C
+    name: Pyke
+  - role: Support
+    tier: B
+    name: Tahm Kench
+  - role: Support
+    tier: B
+    name: Swain
+  - role: Support
+    tier: Sona
+    name: C
+  - role: Support
+    tier: D
+    name: Zyra
+  - role: Mid
+    tier: B
+    name: Ekko
+  - role: Mid
+    tier: S
+    name: Diana
+  - role: Support
+    tier: S
+    name: Braum
