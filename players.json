@@ -496,6 +496,46 @@
         "role": "Mid",
         "tier": "B",
         "name": "Kassadin"
+      },
+      {
+        "role": "Mid",
+        "tier": "S",
+        "name": "Smolder"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Lulu"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Nami"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Lux"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Brand"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Senna"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Neeko"
+      },
+      {
+        "role": "Support",
+        "tier": "S",
+        "name": "Yummi"
       }
     ]
   },
