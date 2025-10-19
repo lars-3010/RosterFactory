@@ -446,6 +446,51 @@
         "role": "Mid",
         "tier": "S",
         "name": "Mel"
+      },
+      {
+        "role": "Mid",
+        "tier": "S",
+        "name": "Orianna"
+      },
+      {
+        "role": "Mid",
+        "tier": "S",
+        "name": "Aurelion Sol"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Viktor"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Syndra"
+      },
+      {
+        "role": "Mid",
+        "tier": "C",
+        "name": "Ryze"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Lissandra"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Annie"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Hwei"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Kassadin"
       }
     ]
   },
