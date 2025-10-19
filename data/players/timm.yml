@@ -90,15 +90,15 @@ champions:
   - role: Support
     tier: D
     name: Zyra
-  - role:
-    tier:
-    name:
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
+  - role: Mid
+    tier: B
+    name: Ekko
+  - role: Mid
+    tier: S
+    name: Diana
+  - role: Support
+    tier: S
+    name: Braum
   - role:
     tier:
     name: 
