@@ -44,6 +44,9 @@ jobs:
         working-directory: ./src/frontend
         run: npm run build
 
+      - name: List build output
+        run: ls -R src/frontend/dist
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
