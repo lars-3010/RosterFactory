@@ -1,0 +1,51 @@
+# data/players/lars.yml
+player_name: Lars
+champions:
+  - role: Top
+    tier: S
+    name: Camille
+  - role: Top
+    tier: S
+    name: Mordekaiser
+  - role: Top
+    tier: A
+    name: Jax
+  - role: Top
+    tier: A
+    name: Fiora
+  - role: Top
+    tier: A
+    name: Shen
+  - role: Mid
+    tier: S
+    name: Orianna
+  - role: Mid
+    tier: A
+    name: Galio
+  - role: Mid
+    tier: A
+    name: Azir
+  - role: Mid
+    tier: A
+    name: Viktor
+  - role: Mid
+    tier: A
+    name: Anivia
+  - role: ADC
+    tier: A
+    name: Ezreal
+  - role: ADC
+    tier: A
+    name: Senna
+  - role: ADC
+    tier: A
+    name: Seraphine
+  - role: Jungle
+    tier: S
+    name: Jarvan IV
+  - role: Jungle
+    tier: A
+    name: Shen
+  - role: Jungle
+    tier: A
+    name: Shyvana

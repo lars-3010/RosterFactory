@@ -1,0 +1,15 @@
+# data/players/lukas.yml
+player_name: Lukas
+champions:
+  - role: Jungle
+    tier: A
+    name: Volibear
+  - role: ADC
+    tier: A
+    name: Ashe
+  - role: Mid
+    tier: S
+    name: Ahri
+  - role: Mid
+    tier: A
+    name: Veigar

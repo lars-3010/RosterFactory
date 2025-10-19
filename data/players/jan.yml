@@ -1,0 +1,18 @@
+# data/players/jan.yml
+player_name: Jan
+champions:
+  - role: ADC
+    tier: S
+    name: Sivir
+  - role: ADC
+    tier: A
+    name: Jinx
+  - role: Top
+    tier: A
+    name: Gnar
+  - role: ADC
+    tier: S
+    name: Kai'Sa
+  - role: ADC
+    tier: A
+    name: Ashe

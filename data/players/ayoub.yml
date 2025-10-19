@@ -1,0 +1,11 @@
+player_name: Ayoub
+champions:
+  - role: Mid
+    tier: A
+    name: Mel
+  - role: Support
+    tier: A
+    name: Nautilus
+  - role: Support
+    tier: A
+    name: Milio

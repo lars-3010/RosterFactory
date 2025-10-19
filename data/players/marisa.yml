@@ -1,0 +1,12 @@
+# data/players/marisa.yml
+player_name: Marisa
+champions:
+  - role: Support
+    tier: S
+    name: Nami
+  - role: Support
+    tier: A
+    name: Lulu
+  - role: ADC
+    tier: A
+    name: Jhin

@@ -1,0 +1,12 @@
+# data/players/simon.yml
+player_name: Simon
+champions:
+  - role: Mid
+    tier: S
+    name: Mordekaiser
+  - role: Top
+    tier: S
+    name: Mordekaiser
+  - role: Mid
+    tier: S
+    name: Veigar

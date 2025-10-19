@@ -1,0 +1,18 @@
+# data/players/niklas.yml
+player_name: Niklas
+champions:
+  - role: Top
+    tier: A
+    name: Cho'Gath
+  - role: Top
+    tier: A
+    name: Garen
+  - role: Top
+    tier: A
+    name: Jax
+  - role: Top
+    tier: S
+    name: Tahm Kench
+  - role: Top
+    tier: A
+    name: Yasuo
