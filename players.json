@@ -161,6 +161,21 @@
         "role": "ADC",
         "tier": "A",
         "name": "Ashe"
+      },
+      {
+        "role": "Jungle",
+        "tier": "S",
+        "name": "Amumu"
+      },
+      {
+        "role": "Jungle",
+        "tier": "A",
+        "name": "Jarvan IV"
+      },
+      {
+        "role": "Mid",
+        "tier": "B",
+        "name": "Ryze"
       }
     ]
   },
@@ -584,8 +599,8 @@
       },
       {
         "role": "Support",
-        "tier": "Sona",
-        "name": "C"
+        "tier": "C",
+        "name": "Sona"
       },
       {
         "role": "Support",
@@ -606,256 +621,6 @@
         "role": "Support",
         "tier": "S",
         "name": "Braum"
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
-      },
-      {
-        "role": null,
-        "tier": null,
-        "name": null
       }
     ]
   },
