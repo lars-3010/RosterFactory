@@ -222,7 +222,7 @@ function App() {
         <p>
           Want to add your champions?
           <a
-            href="https://github.com/lars-3010/RosterFactory/tree/github-pages/data/players"
+            href="https://github.com/lars-3010/RosterFactory/tree/main/data/players"
             target="_blank"
             rel="noopener noreferrer"
           >
