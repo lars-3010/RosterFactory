@@ -57,39 +57,39 @@ champions:
   - role: Support
     tier: S
     name: Yummi
-  - role: 
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name:
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
-  - role:
-    tier:
-    name: 
+  - role: Support
+    tier: A
+    name: Karma
+  - role: Support
+    tier: A
+    name: Janna
+  - role: Support
+    tier: S
+    name: Mel
+  - role: Support
+    tier: A
+    name: Seraphine
+  - role: Support
+    tier: S
+    name: Leona
+  - role: Support
+    tier: S
+    name: Nautilus
+  - role: Support
+    tier: C
+    name: Pyke
+  - role: Support
+    tier: B
+    name: Tahm Kench
+  - role: Support
+    tier: B
+    name: Swain
+  - role: Support
+    tier: Sona
+    name: C
+  - role: Support
+    tier: D
+    name: Zyra
   - role:
     tier:
     name:
