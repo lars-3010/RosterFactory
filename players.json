@@ -593,19 +593,19 @@
         "name": "Zyra"
       },
       {
-        "role": null,
-        "tier": null,
-        "name": null
+        "role": "Mid",
+        "tier": "B",
+        "name": "Ekko"
       },
       {
-        "role": null,
-        "tier": null,
-        "name": null
+        "role": "Mid",
+        "tier": "S",
+        "name": "Diana"
       },
       {
-        "role": null,
-        "tier": null,
-        "name": null
+        "role": "Support",
+        "tier": "S",
+        "name": "Braum"
       },
       {
         "role": null,
