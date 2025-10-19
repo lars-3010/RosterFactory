@@ -13,7 +13,7 @@ def generate_players_json():
     base_dir = os.path.join(script_dir, "..")
     players_data = []
     data_dir = os.path.join(base_dir, "data", "players")
-    output_dir = os.path.join(base_dir, "frontend", "public")
+    output_dir = os.path.join(base_dir, "src", "frontend", "public")
     output_file = os.path.join(output_dir, "players.json")
 
     # Ensure the output directory exists
