@@ -81,6 +81,31 @@
         "role": "Top",
         "tier": "A",
         "name": "Darius"
+      },
+      {
+        "role": "Top",
+        "tier": "S",
+        "name": "Cho'gath"
+      },
+      {
+        "role": "ADC",
+        "tier": "S",
+        "name": "Lucian"
+      },
+      {
+        "role": "ADC",
+        "tier": "S",
+        "name": "Caitlyn"
+      },
+      {
+        "role": "ADC",
+        "tier": "S",
+        "name": "Tristana"
+      },
+      {
+        "role": "ADC",
+        "tier": "B",
+        "name": "Jhin"
       }
     ]
   },
