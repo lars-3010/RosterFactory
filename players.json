@@ -914,8 +914,8 @@
       },
       {
         "role": "Mid",
-        "tier": "S",
-        "name": "Darius"
+        "tier": "B",
+        "name": "Mordekaiser"
       },
       {
         "role": "Mid",
@@ -956,6 +956,46 @@
         "role": "Jungle",
         "tier": "A",
         "name": "Shyvana"
+      },
+      {
+        "role": "Support",
+        "tier": "A",
+        "name": "Senna"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Kassadin"
+      },
+      {
+        "role": "ADC",
+        "tier": "A",
+        "name": "Ashe"
+      },
+      {
+        "role": "Top",
+        "tier": "A",
+        "name": "Sion"
+      },
+      {
+        "role": "Mid",
+        "tier": "A",
+        "name": "Corki"
+      },
+      {
+        "role": "Top",
+        "tier": "B",
+        "name": "Mundo"
+      },
+      {
+        "role": "Jungle",
+        "tier": "B",
+        "name": "Zac"
+      },
+      {
+        "role": "Jungle",
+        "tier": "B",
+        "name": "Nocturne"
       }
     ]
   },
