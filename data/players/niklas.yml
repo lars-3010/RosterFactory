@@ -17,7 +17,7 @@ champions:
     tier: B
     name: Yasuo
   - role: Mid
-    tier: A
+    tier: B
     name: Annie
   - role: Top
     tier: A
@@ -28,9 +28,6 @@ champions:
   - role: Top
     tier: A
     name: Nasus
-  - role: Top
-    tier: A
-    name: Annie
   - role: Mid
     tier: A
     name: Tristana
