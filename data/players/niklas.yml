@@ -34,3 +34,9 @@ champions:
   - role: Mid
     tier: A
     name: Tristana
+  - role: Top
+    tier: A
+    name: Mordekaiser
+  - role: Top
+    tier: A
+    name: Dr. Mondo
