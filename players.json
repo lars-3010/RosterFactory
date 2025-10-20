@@ -29,7 +29,7 @@
       },
       {
         "role": "Mid",
-        "tier": "A",
+        "tier": "B",
         "name": "Annie"
       },
       {
@@ -46,11 +46,6 @@
         "role": "Top",
         "tier": "A",
         "name": "Nasus"
-      },
-      {
-        "role": "Top",
-        "tier": "A",
-        "name": "Annie"
       },
       {
         "role": "Mid",
